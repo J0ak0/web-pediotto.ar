@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+
+
+    /* Estilos para pantallas de hasta 768px */
+
+    .logo img{
+        max-width: 100px;
+        margin-left: 0px;
+
+    }
+
+    main{
+        margin-top: 200px;
+    }
+
+    nav {
+        padding: 5px 0;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .nav-buttons {
+        margin: 10px 0;
+    }
+      
+    .nav-buttons a {
+        margin: 5px;
+    }
+      
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+      
+      /* Ocultar elementos de la barra de navegación */
+    ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+      
+      /* Mostrar elementos de la barra de navegación al hacer clic en el botón de menú */
+    ul.show {
+        display: flex;
+    }
+      
+    ul li {
+        margin: 10px 0;
+    }
+
+    
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
+
+    #productos h2{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* Estilos para pantallas de hasta 480px */
+    nav ul {
+      display: none;
+    }
+  
+    .nav-buttons {
+        margin-top: 10px;
+        text-align: center;
+    }
+  
+    .nav-buttons a {
+        display: block;
+        margin: 5px;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .nav-buttons.active {
+        display: block;
+        text-align: center;
+    } 
+
+    .hero{
+        background-image: none;
+        color: #000000;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .hero h1 {    
+        font-size: 2.5rem;    
+        margin-bottom: 20px;
+        margin-left: 50px;
+        text-align: center;   
+        
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .hero-buttons {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+}

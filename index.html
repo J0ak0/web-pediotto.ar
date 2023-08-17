@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soy OTTO - Un Amigo</title>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"
+            ><img src="./assets/images/Logo.png" alt="Logo"
+          /></a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-buttons">
+          <a href="./assets/pages/login.html" class="buttons_login">Acceder</a>
+          <a href="./assets/pages/registro.html" class="buttons_registro"
+            >Registrarse</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <h1>Somos OTTO</h1>
+          <p>Tu ciudad Evoluciona</p>
+          <div class="hero-buttons">
+            <a href="#about">Acerca de Nosotros</a>
+            <a href="#contacto">Contáctanos</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about">
+          <h2>Acerca de Nosotros</h2>
+          <div class="cards-about">
+            <h3>Bienvenidos a <strong>OTTO</strong></h3>
+            <p>
+              Tu socio confiable en logística de última milla en Cruz del Eje.
+              Brindamos entregas eficientes para satisfacer las necesidades
+              cambiantes de nuestros clientes.
+            </p>
+          </div>
+
+          <div class="cards-about image-card">
+            <h3>Misión y Visión</h3>
+            <img src="/assets/images/mision.jpg" alt="Mision" />
+            <div class="overlay">
+              <p>
+                Nuestra misión es llevar tus expectativas de entrega a un nivel
+                superior. Queremos ser líderes en la logística de última milla,
+                reconocidos por eficiencia y confianza.
+              </p>
+            </div>
+          </div>
+          <div class="cards-about image-card">
+            <h3>Servicios</h3>
+            <img src="./assets/images/servicios.jpg" alt="Servicios" />
+            <div class="overlay">
+              <p>
+                Especializados en entrega de última milla, garantizando llegadas
+                puntuales y perfectas. Desde productos comerciales hasta envíos
+                personales.
+              </p>
+            </div>
+          </div>
+          <div class="cards-about image-card">
+            <h3>Compromiso</h3>
+            <img src="./assets/images/compromiso.jpg" alt="Compromiso" />
+            <div class="overlay">
+              <p>
+                Nos comprometemos con la satisfacción. Valoramos la
+                transparencia, confiabilidad y comunicación abierta. Tu
+                confianza es nuestro motor.
+              </p>
+            </div>
+          </div>
+          <div class="cards-about image-card">
+            <h3>¡Conócenos!</h3>
+            <img src="./assets/images/conocenos.jpg" alt="Conocenos" />
+            <div class="overlay">
+              <p>
+                Entregamos paquetes, sonrisas y comodidad. Gracias por elegir a <strong>OTTO</strong> como tu socio de logística en Cruz del Eje.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/images/PlanAmigo.png" alt="Plan Amigo" />
+            <h3>Plan Amigo</h3>
+            <ul>
+              <li>Lunes a Viernes</li>
+              <li>Sin prioridad de entrega</li>
+              <li>Solo Cuenta corriente</li>
+            </ul>
+            <p>Descripción del producto.</p>
+            <span class="price">Gratuito</span>
+            <button>Comprar</button>
+          </div>
+          <div class="card">
+            <img src="./assets/images/PlanEmprendedor.png" alt="Plan Emprendedor" />
+            <h3>Plan Emprendedor</h3>
+            <ul>
+              <li>Viajes Diferenciados</li>
+              <li>Prioridad de entrega</li>
+              <li>Seguimiento del pedido</li>
+              <li>Lunes a Viernes</li>
+              <li>50% del pedido de paga en el momento</li>
+              <li>Seguro de entrega 50%</li>
+
+            </ul>
+            <span class="price">$2500</span>
+            <button>Comprar</button>
+          </div>
+          <div class="card">
+            <img src="./assets/images/PlanComercio.png" alt="PlanComercio" />
+            <h3>Plan Comercio</h3>
+            <ul>
+              <li>Viajes Diferenciados</li>
+              <li>Prioridad de entrega</li>
+              <li>Seguimiento del pedido</li>
+              <li>Lunes a Domingo</li>
+              <li>80% del pedido de paga en el momento</li>
+              <li>Seguro de entrega 100%</li>
+              <li>Estaditicas mensuales</li>
+
+            </ul>
+            <span class="price">$4000</span>
+            <button>Comprar</button>
+          </div>
+          
+      </section>
+
+      <section id="contacto">
+        <div class="contact">
+          <div class="contact-form">
+            <h2>Comunicate con nosotros</h2>
+            <form action="#">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <hr />
+          <h3>Tambien podes llamarnos o visitarnos:</h3>
+          <p>Información de contacto y formulario aquí.</p>
+          <div class="contact-info">            
+            <p>Email: info@pediotto.ar</p>
+            <p>Teléfono: <a href="tel:3549552626">3549-552626</a></p>
+            <p>Dirección: Belgrano 800, Cruz del eje, Cordoba</p>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.979158498977!2d-64.81055821519293!3d-30.719572202178952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942dc312991b3981%3A0xa5a2022b4d78f021!2sOTTO!5e0!3m2!1ses-419!2sar!4v1692181479946!5m2!1ses-419!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Derechos Reservados &copy; 2023</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/soyottocde" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com/" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/otto_cde" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,101 +1,29 @@
-@media (max-width: 768px) {
-    /* Estilos para pantallas de hasta 768px */
-
-    .logo img{
-        max-width: 100px;
-        margin-left: 0px;
-
-    }
-
-    main{
-        margin-top: 200px;
-    }
-
-    nav {
-        padding: 5px 0;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-      
-    .nav-buttons {
-        margin: 10px 0;
-    }
-      
-    .nav-buttons a {
-        margin: 5px;
-    }
-      
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-      
-      /* Ocultar elementos de la barra de navegación */
-    /* ul {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-       */
-      /* Mostrar elementos de la barra de navegación al hacer clic en el botón de menú */
-    ul.show {
-        display: flex;
-    }
-      
-    ul li {
-        margin: 10px 0;
-    }
-
-    
-    .cards-container {
-      grid-template-columns: 1fr;
-    }
-  
-    .contact {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    } 
-
-    #productos h2{
-        text-align: center;
-    }
-
-}
-
+/* Estilos para pantallas de hasta 480px (celulares pequeños)*/
 @media (max-width: 480px) {
-    /* Estilos para pantallas de hasta 480px */
     nav ul {
       display: none;
     }
-  
-    .nav-buttons {
-        margin-top: 10px;
-        text-align: center;
-    }
-  
-    .nav-buttons a {
-        display: block;
-        margin: 5px;
-    }
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-        font-size: 24px;
-    }
-
+    
     .nav-buttons.active {
         display: block;
         text-align: center;
     } 
+    
+    main{
+        margin-top: 120px;
+        text-align: center;
+    }
+
 
     .hero{
-        background-image: none;
+        /* background-image: url("../assets/images/hero-background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+        /* background-image: none; */
         color: #000000;
         text-align: center;
-        padding: 100px 0;
+        padding: 0px;
     }
 
     .hero h1 {    
@@ -118,17 +46,45 @@
         margin-left: 50px;
     }
 
+    section{
+        padding: 0px;
+    }
 }
-/* 
- Estilos para el botón de menú
-.menu-icon {
-    display: none;
-    cursor: pointer;
+
+/* Estilos para pantallas de hasta 768px (Tablet y similares)*/
+@media (max-width: 768px) {
+
+    .logo img{
+        max-width: 100px;
+        margin-left: 0px;
+        padding: 0px;
+
+    }
+    
+    main{
+        margin-top: 145px;
+        text-align: center;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+      
+    .nav-buttons{
+        margin-right: 0px;
+    }
+        
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
+
 }
- Estilos para el menú desplegable 
-ul.show {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}  */
+

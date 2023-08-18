@@ -126,8 +126,7 @@ nav a {
 .hero h1 {    
     font-size: 2.5rem;    
     margin-bottom: 20px;
-    margin-left: 50px;   
-    
+    margin-left: 50px;     
 }
 
 .hero p {
@@ -188,7 +187,8 @@ section {
 .image-card p{
     font-size: large;
     text-align: center;
-    max-width: 50%;
+    max-width: 80%; 
+    margin: auto; 
    
 }
 
@@ -207,6 +207,7 @@ section {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0;

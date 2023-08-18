@@ -77,20 +77,6 @@ nav a {
     text-decoration: none;
 }
 
-/* Estilos para el botón de menú */
-.menu-icon {
-    display: none;
-    cursor: pointer;
-}
-
-/* Estilos para el menú desplegable */
-ul.show {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
 /* Botones en el nav */
 
 .menu-icon{
@@ -215,8 +201,7 @@ section {
 .image-card .overlay {
     background-color: rgba(0, 0, 0, 0.95);
     color: #fff;
-    position: absolute;
-   
+    position: absolute;   
     top: 0;
     left: 0;
     width: 100%;
@@ -238,12 +223,13 @@ section {
 
 
 /* La sección de productos */
-#productos {
-    padding: 40px;
 
+
+#productos h3{
+    text-align: center;
 }
 
-#productos h2{
+#productos ul{
     text-align: center;
 }
 
@@ -258,7 +244,7 @@ section {
 
 .card {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
     text-align: center;
     /* margin-bottom: 20px; */
@@ -266,18 +252,21 @@ section {
 
 .card:hover {
     border: 2px solid #3dac11;
-    border-radius: 5px;
-    
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
+    border-radius: 15px;    
 }
 
 .price {
     font-weight: bold;
     color: #3dac11;
+}
+
+.plan_lista{
+    list-style: none;
+    font-size: large;
+}
+
+.plan_img{
+    width: 100px;
 }
 
 /* Estilos para la sección de contacto */
@@ -351,6 +340,8 @@ footer a {
 }
 
 /* Estilos seccion login y registro */
+
+
 
 /* Estilos para los iconos de redes sociales en el footer */
 .social-icons {

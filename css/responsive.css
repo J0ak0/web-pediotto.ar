@@ -119,3 +119,16 @@
     }
 
 }
+/* 
+ Estilos para el botón de menú
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+ Estilos para el menú desplegable 
+ul.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}  */

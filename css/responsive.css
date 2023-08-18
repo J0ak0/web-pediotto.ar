@@ -32,13 +32,13 @@
     }
       
       /* Ocultar elementos de la barra de navegación */
-    ul {
+    /* ul {
         display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-      
+       */
       /* Mostrar elementos de la barra de navegación al hacer clic en el botón de menú */
     ul.show {
         display: flex;
